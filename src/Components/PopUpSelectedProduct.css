@@ -1,0 +1,70 @@
+.modalBackground {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100%;
+    background: rgba(66, 64, 64, 0.38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    /* border: 1px solid black; */
+  }
+  .modalContainer {
+    max-width: 500px;
+    width: auto ;
+    height: fit-content;
+  
+    border-radius: 12px ;
+  
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    padding-top: 20px ;
+    padding-bottom: 50px;
+  }
+  .PopUpSelectedProduct-category-name{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: 800;
+
+  }
+  .PopUpSelectedProduct-title-div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+.PopUpSelectedProduct-title-name{
+    margin-left: 20px;
+}
+  .PopUpSelectedProduct-close-btn{
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 7.5px;
+    margin-right: 20px;
+  }
+  .PopUpSelectedProduct-description-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: fit-content;
+  }
+  .PopUpSelectedProduct-description-img{
+    height: 200px;
+    width: 200px;
+  }
+  .PopUpSelectedProduct-description{
+    margin-left: 20px;
+  }
