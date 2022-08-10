@@ -78,7 +78,7 @@ const ProductsPage = ({ allCato }) => {
     }
     return (
 
-        <div className="products-page-main-container">
+        <div className="products-page-main-container" >
             <div className="products-page-title-available-products">Available Products</div>
             <div className="products-page-dropdown-label">
                 {/* <label htmlFor="catergories">Choose a catergory : </label> */}
